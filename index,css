@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root {
+    --light-gray: #19202f;
+    --gray: #11161f;
+    --black: #080b10;
+
+    --light-rose: #ff917d;
+    --rose: #fd6d67;
+}
+
+button {
+    color: #fff;
+    background: var(--rose);
+    border-radius: 12px;
+    padding: 1rem;
+    border-color: var();
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    color: #fff;
+    background-color: #11161f;
+    padding: 23px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+    background: #ff917d;  
+    border-radius: 20px;
+}
+input {
+    border: none
+
+
+}
+.cabeçalho {
+padding: 12px;
+
+}
